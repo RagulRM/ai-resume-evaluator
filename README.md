@@ -95,12 +95,11 @@ npm start
 
 ### 🎯 How to Use
 
-Visit http://localhost:3000
+#### Visit http://localhost:3000
 <img width="1328" height="606" alt="image" src="https://github.com/user-attachments/assets/0eb39183-cf9d-446a-ae0c-edbcf804db26" />
-Upload your Resume PDF
+#### Upload your Resume PDF
 <img width="1910" height="921" alt="image" src="https://github.com/user-attachments/assets/a5612ac7-3e4d-4697-94f5-bd26355a32dc" />
-Upload a Job Description PDF
+#### Upload a Job Description PDF
 <img width="1915" height="946" alt="image" src="https://github.com/user-attachments/assets/1ff5c1f4-e7b5-4ef3-abb1-ac3d5690cd2b" />
-Click "Evaluate"
-Get your Match Score and view Missing Skills
+#### Click "Evaluate" Get your Match Score and view Missing Skills
 <img width="1914" height="822" alt="image" src="https://github.com/user-attachments/assets/9ec6fe03-fca3-462e-bfe9-86c9edebb0ab" />
