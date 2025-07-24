@@ -1,0 +1,10 @@
+# Python
+venv/
+__pycache__/
+
+# Node
+client/node_modules/
+
+# OS Generated
+.DS_Store
+Thumbs.db
