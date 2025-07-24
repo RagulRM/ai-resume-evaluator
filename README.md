@@ -15,11 +15,6 @@ resume-evaluator/
 ├── server/ # Flask backend (AI processing)
 ├── README.md # You're reading this!
 └── .gitignore
-
-yaml
-Copy
-Edit
-
 ---
 
 ## ⚙️ Tech Stack
@@ -54,66 +49,41 @@ These steps help you run the project **locally** on your machine.
 git clone https://github.com/<your-username>/ai-resume-evaluator.git
 cd ai-resume-evaluator
 2️⃣ Backend Setup (Python + Flask)
+
 Step 1: Go to server folder
-bash
-Copy
-Edit
 cd server
+
 Step 2: Create and activate virtual environment (Windows)
-bash
-Copy
-Edit
 python -m venv venv
 venv\Scripts\activate
 If you're on Mac/Linux, use:
-
-bash
-Copy
-Edit
 python3 -m venv venv
 source venv/bin/activate
+
 Step 3: Install Python dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Make sure requirements.txt includes:
-
-nginx
-Copy
-Edit
 Flask
 python-dotenv
 PyMuPDF
 spacy
 flask-cors
+
 Step 4: Download spaCy model (only once)
-bash
-Copy
-Edit
 python -m spacy download en_core_web_sm
+
 Step 5: Run the backend server
-bash
-Copy
-Edit
 python app.py
 ✅ Flask should run on: http://127.0.0.1:5000/
 
 3️⃣ Frontend Setup (React)
 Step 1: Open new terminal & go to client folder
-bash
-Copy
-Edit
 cd ../client
+
 Step 2: Install React dependencies
-bash
-Copy
-Edit
 npm install
+
 Step 3: Start React app
-bash
-Copy
-Edit
 npm start
 ✅ React runs on: http://localhost:3000/
 
