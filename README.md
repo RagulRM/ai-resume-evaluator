@@ -64,14 +64,31 @@ flask-cors
 ```
 
 #### 📚 Download the spaCy model (only once):
-
 ```bash
 python -m spacy download en_core_web_sm
 ```
 
-### ▶️ Run the Flask server:
-
+#### ▶️ Run the Flask server:
 ```bash
 python app.py
 ```
 🌐 Your backend is running at: http://127.0.0.1:5000
+
+### 3️⃣ Frontend Setup (React)
+
+#### 🖥 Open a new terminal, then:
+```bash
+cd client
+```
+#### 📦 Install dependencies:
+```bash
+npm install
+```
+
+#### ▶️ Start the React app:
+```bash
+npm start
+```
+🌐 Your frontend is running at: http://localhost:3000
+
+
