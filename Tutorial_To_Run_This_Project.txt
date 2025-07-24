@@ -1,0 +1,55 @@
+Start the Backend (Flask):
+
+Step 1 -> Open the project folder
+
+	cd D:\Projects\resume-evaluator\server
+
+Step 2 -> Create a virtual environment (only once)
+
+	python -m venv venv
+	venv\Scripts\activate
+
+Step 3 -> Install required packages
+
+	pip install -r requirements.txt
+
+Step 4 -> Download the spaCy model (only once)
+
+	python -m spacy download en_core_web_sm
+
+Step 5 -> Run the Flask server
+
+	python app.py
+
+✅ You should see: * Running on http://127.0.0.1:5000/
+
+
+Start the Frontend (React):
+
+Step 1 -> Open a new terminal or split the terminal in VS Code.
+
+Step 2 -> Go to the client folder
+
+	cd D:\Projects\resume-evaluator\client
+
+Step 3 -> Install dependencies (only once)
+
+	npm install
+
+Step 4 -> Start the React app
+
+	npm start
+
+✅ It will open automatically in your browser at: http://localhost:3000
+
+
+📄 Use the App
+
+1) On the webpage that opened, click Choose File to upload your Resume PDF
+
+2) Upload a Job Description PDF
+
+3) Click Evaluate
+
+4) You’ll see your Match Score and Missing Skills
+
