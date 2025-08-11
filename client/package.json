@@ -1,7 +1,11 @@
 {
-  "name": "client",
-  "version": "0.1.0",
+  "name": "ai-resume-evaluator",
+  "version": "1.0.0",
   "private": true,
+  "description": "AI-powered resume analysis tool that matches resumes with job descriptions",
+  "keywords": ["resume", "ai", "job-matching", "analysis", "career"],
+  "author": "Your Name",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

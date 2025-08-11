@@ -1,24 +1,63 @@
-# 🧠 AI Resume Evaluator
+# 🚀 AI Resume Evaluator
 
-A simple AI-powered web app that evaluates how well your resume matches a job description. Built using **Python Flask** for the backend and **React** for the frontend.
+A cutting-edge, AI-powered web application that revolutionizes resume analysis. Built with modern technologies and featuring a stunning futuristic UI design.
+
+<div align="center">
+
+![AI Resume Evaluator](https://img.shields.io/badge/AI-Resume%20Evaluator-blueviolet?style=for-the-badge&logo=rocket)
+![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react)
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python)
+![Flask](https://img.shields.io/badge/Flask-2.0+-000000?style=for-the-badge&logo=flask)
+
+**Unlock your potential with AI-powered resume analysis**
+
+</div>
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-✅ Upload your Resume and Job Description  
-✅ Get a Match Score (%)  
-✅ View Missing Skills  
-✅ Simple, Responsive UI  
+🎯 **Smart AI Analysis** - Advanced NLP processing with spaCy  
+📊 **Real-time Scoring** - Instant match percentage calculation  
+🔍 **Skill Gap Analysis** - Identify missing skills and improvements  
+🎨 **Futuristic UI** - Modern grid-based design with glassmorphism  
+📱 **Fully Responsive** - Perfect on desktop, tablet, and mobile  
+⚡ **Drag & Drop** - Intuitive file upload experience  
+🔒 **Secure Processing** - Files are automatically cleaned after analysis  
+🌐 **Production Ready** - Optimized for deployment on any platform  
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React.js  
-- **Backend**: Python Flask  
-- **AI/NLP**: spaCy  
-- **PDF Parsing**: PyMuPDF  
+### Frontend
+- **React 18+** - Modern React with hooks
+- **CSS3** - Custom animations and grid layouts
+- **Axios** - API communication
+- **Inter Font** - Clean, modern typography
+
+### Backend
+- **Python 3.11+** - Latest Python features
+- **Flask 2.0+** - Lightweight web framework
+- **spaCy** - Advanced NLP processing
+- **PyMuPDF** - Reliable PDF text extraction
+- **Flask-CORS** - Cross-origin resource sharing
+
+### AI/ML
+- **spaCy en_core_web_sm** - English language model
+- **NLP Algorithms** - Keyword extraction and matching
+- **Statistical Analysis** - Percentage scoring system
+
+---
+
+## 🎨 Design Features
+
+- **Grid Background** - Futuristic cyberpunk-inspired design
+- **Glassmorphism** - Modern frosted glass effects
+- **Smooth Animations** - Fluid transitions and hover effects
+- **Color-coded Results** - Visual feedback with dynamic colors
+- **Loading States** - Professional loading animations
+- **Responsive Layout** - Mobile-first design approach
 
 ---
 

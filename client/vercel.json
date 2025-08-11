@@ -1,0 +1,19 @@
+{
+  "name": "ai-resume-evaluator",
+  "builds": [
+    {
+      "src": "client/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "build" }
+    }
+  ],
+  "routes": [
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ],
+  "functions": {
+    "client/build/**": {
+      "includeFiles": "client/build/**"
+    }
+  }
+}
