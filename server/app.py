@@ -58,7 +58,11 @@ def evaluate():
     except Exception as e:
         return jsonify({"error": f"An error occurred: {str(e)}"}), 500
 
+# Vercel requires this
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     debug = os.getenv('FLASK_ENV') != 'production'
     app.run(host='0.0.0.0', port=port, debug=debug)
+else:
+    # For Vercel
+    app = app
