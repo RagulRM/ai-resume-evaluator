@@ -1,12 +1,8 @@
-# Railway configuration for full-stack deployment
 [build]
 builder = "nixpacks"
-buildCommand = "cd server && pip install -r requirements.txt"
 
 [deploy]
-startCommand = "cd server && python app.py"
-restartPolicyType = "ON_FAILURE"
-restartPolicyMaxRetries = 10
+startCommand = "python app.py"
 
 [environments.production.variables]
 FLASK_ENV = "production"
