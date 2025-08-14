@@ -1,6 +1,7 @@
 # Railway configuration for full-stack deployment
 [build]
 builder = "nixpacks"
+buildCommand = "cd server && pip install -r requirements.txt"
 
 [deploy]
 startCommand = "cd server && python app.py"
@@ -10,3 +11,6 @@ restartPolicyMaxRetries = 10
 [environments.production.variables]
 FLASK_ENV = "production"
 PORT = "5000"
+
+[build.env]
+NIXPACKS_PYTHON_VERSION = "3.11"
